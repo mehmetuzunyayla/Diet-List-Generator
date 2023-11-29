@@ -4,7 +4,7 @@
 
 using namespace std;
 
-// This Function's purpose is get the information easily.
+// This Function's purpose is to get the information easily.
 void getInfo(string& name, float& weight, float& height, float& exercise_hours)
 {
     cout << "Please write your name: " << endl;
@@ -13,7 +13,7 @@ void getInfo(string& name, float& weight, float& height, float& exercise_hours)
     cin >> weight;
     cout << "Enter your height: (Ex. = 1.84) " << endl;
     cin >> height;
-    cout << "How many hours do you workout weekly ?" << endl;
+    cout << "How many hours do you work out weekly ?" << endl;
     cin >> exercise_hours;
 }
 
@@ -58,10 +58,10 @@ void dietReport(float bmi, float exercise_hours, string name)
         recommendations = "Consult with a nutritionist or healthcare professional for a personalized plan.\nFocus on portion control and regular exercise.";
     }
     else{
-        cout << "There is problem with the values" << endl;
+        cout << "There is a problem with the values" << endl;
     }
 
-    //This part for the exercise recommondation.
+    //This part is for the exercise recommendation.
     if (exercise_hours >= 3) {
         recommendations += "\nConsider increasing protein intake to support your active lifestyle.";
     } else if (exercise_hours < 3) {
