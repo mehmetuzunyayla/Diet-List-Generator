@@ -74,8 +74,7 @@ void dietReport(float bmi, float exercise_hours, string name)
     //Printing recommendations.
     cout << recommendations << "\n" << endl;
 
-    cout << "These are your day options and, you can choose one of them for your diet program.\n" << endl;
-    
+    cout << "You can select from a range of nutritious meal choices to personalize your daily diet program.\n" << endl;    
     
     cout << "Daily Program \n" << endl;
 
